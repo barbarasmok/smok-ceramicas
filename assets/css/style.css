@@ -165,10 +165,10 @@ button:focus:not(:focus-visible) {
 /* Hero */
 .hero {
   padding: 2rem 1rem 4rem 1rem;
-  background-image: url(../imgs/hero-text.svg);
+  background-image: url(../imgs/hero-text.png);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
+  background-position: center;
 }
 .tagline {
   font-family: 'Playwrite RO', cursive;
