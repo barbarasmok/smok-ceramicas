@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1140" height="273" viewBox="0 0 1140 273">
+  <defs>
+    <clipPath id="clip-hero-text">
+      <rect width="1140" height="273"/>
+    </clipPath>
+  </defs>
+  <g id="hero-text" clip-path="url(#clip-hero-text)">
+    <text id="SmokCeramicas" transform="translate(34 24)" fill="#f7f7f6" font-size="117" font-family="Playwrite RO"><tspan x="-512.753" y="167">SmokCeramicas</tspan></text>
+  </g>
+</svg>

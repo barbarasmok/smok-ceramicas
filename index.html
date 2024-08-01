@@ -28,6 +28,12 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playwrite+RO:wght@100..400&display=swap"
+      rel="stylesheet"
+    />
     <!-- Font Awesome -->
     <script
       src="https://kit.fontawesome.com/f8c7a943f3.js"
@@ -35,35 +41,83 @@
     ></script>
   </head>
   <body>
-    <div class="container">
-      <h1>
-        This is a long heading using a
-        <span class="h1-special">special heading</span>
-      </h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis viverra
-        maximus justo sed ornare. In cursus nulla at nisi laoreet porttitor. In
-        venenatis ultricies turpis, id commodo risus lacinia eget. Integer
-        feugiat nisi nec augue ullamcorper, a varius ipsum malesuada. Vestibulum
-        ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-        curae; Donec augue ipsum, rhoncus et dapibus vestibulum, vulputate
-        commodo arcu. Nunc posuere dolor nunc, ac volutpat urna pharetra vitae.
-        Vestibulum consequat malesuada malesuada. In vitae lacinia est. Praesent
-        sollicitudin mi bibendum rhoncus dignissim. Pellentesque viverra
-        ultrices tortor sit amet placerat. Donec sed dolor vitae nisi porta
-        porta. Vestibulum feugiat at tortor sit amet sollicitudin.
-      </p>
-      <a href="#">This is a link</a>
-      <a href="#" class="btn btn-primary">More info</a>
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-dark navbar-expand-lg mx-auto"
+      data-bs-theme="dark"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="./index.html">
+          <img
+            src="./assets/imgs/nav-logo.png"
+            alt="Logo Cupon"
+            width="100%"
+            height="auto"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Ceramicas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">About</a>
+            </li>
+            <a class="btn btn-primary ms-2" href="#contacto">Contacto</a>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Hero-->
+    <div class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-info">
+            <span class="tagline">Smok Ceramicas</span>
+            <h1>
+              This is a long heading using a
+              <span class="h1-special">special heading</span>
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+              viverra maximus justo sed ornare. In cursus nulla at nisi laoreet
+              porttitor. In venenatis ultricies turpis, id commodo risus lacinia
+              eget. Integer feugiat nisi nec augue ullamcorper, a varius ipsum
+              malesuada. Vestibulum ante ipsum primis in faucibus orci luctus et
+              ultrices posuere cubilia curae; Donec augue ipsum, rhoncus et
+              dapibus vestibulum, vulputate commodo arcu. Nunc posuere dolor
+              nunc, ac volutpat urna pharetra vitae.
+            </p>
+          </div>
+          <div class="hero-img">
+            <!--<img src="./assets/imgs/hero-img.png" alt="ceramic pot" />-->
+          </div>
+        </div>
+      </div>
     </div>
-    <footer>
+    <footer id="#contacto">
       <div class="container">
         <div class="footer-content">
           <div class="copyright">
-            <p>&copy;2024 Smok Cerámicas. Todos los derechos reservados</p>
+            <p>&copy; Smok Cerámicas <br />Todos los derechos reservados</p>
           </div>
           <div class="footer-brand">
-            <a href="#"
+            <a href="./index.html"
               ><img
                 src="./assets/imgs/footer-logo-circle.png"
                 alt="Logo de Smok Ceramicas"
