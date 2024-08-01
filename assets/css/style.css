@@ -1,0 +1,74 @@
+* html {
+  font-size: 16px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: 16px;
+  line-height: 160%;
+  font-weight: 400;
+  color: #2a2f2c;
+  background-color: #f7f7f6;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto', sans-serif !important;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  color: #2a2f2c;
+}
+.h1-special,
+.h2-special,
+.h3-special,
+.h4-special,
+.h5-special,
+.h6-special {
+  color: #bcc3bf;
+}
+a {
+  color: #bcc3bf;
+  text-decoration: none;
+  font-weight: 500;
+}
+a:hover {
+  color: #daddd3;
+}
+.btn-primary {
+  background-color: #daddd3;
+  color: #2a2f2c;
+}
+.btn-primary:hover {
+  background-color: #f7f7f6;
+}
+.cta-dark {
+  background-color: #bcc3bf;
+  color: #2a2f2c;
+}
+.cta-light {
+  background-color: #e6e6e6;
+  color: #2a2f2c;
+}
+.navbar {
+  background-color: #e6e6e6;
+  color: #2a2f2c;
+}
+.footer {
+  background-color: #bcc3bf;
+  color: #2a2f2c;
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 1024px) {
+}
