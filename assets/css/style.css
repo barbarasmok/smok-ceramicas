@@ -166,10 +166,27 @@ button:focus:not(:focus-visible) {
 .hero {
   padding: 2rem 1rem 4rem 1rem;
   background-image: url(../imgs/hero-text.png);
-  background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: 0% 0%;
+  background-repeat: no-repeat;
+  animation-name: move;
+  animation-duration: 10s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
 }
+
+@keyframes move {
+  0% {
+    background-position: 0% 0%;
+  }
+
+  100% {
+    background-position: 100% 100%;
+
+  }
+}
+
 .tagline {
   font-family: 'Playwrite RO', cursive;
   font-size: 1.5rem;
@@ -190,7 +207,7 @@ button:focus:not(:focus-visible) {
   height: 350px;
   text-align: center;
   background-image: url(../imgs/hero-img-mb.png);
-  transition: background-img 2s ease-in;
+  transition: background-img 5s ease-in;
   border-radius: 1rem;
 }
 .hero-img:hover {
@@ -212,6 +229,14 @@ button:focus:not(:focus-visible) {
   align-items: center;
 }
 
+/* Gallery */
+.gallery {
+  background-color: #F7F7F6;
+  height: 80vh;
+  width: 100%;
+  text-align: center;
+}
+
 /* Footer */
 footer {
   background-color: #bcc3bf;
@@ -231,6 +256,7 @@ footer {
   align-items: center;
   justify-items: center;
 }
+
 .footer-brand {
   grid-area: footer-brand;
   display: flex;
@@ -240,6 +266,18 @@ footer {
   align-content: center;
   align-items: center;
   margin-top: 1rem;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  background-image: url(../imgs/footer-logo-circle.png);
+  transition: background-img 5s ease-in;
+  border-radius: 1rem;
+}
+.footer-brand:hover {
+  background-image: url(../imgs/footer-logo-circle-2.png);
+  width: 150px;
+  height: 150px;
+}
 }
 .copyright p {
   grid-area: copyright;
@@ -318,11 +356,11 @@ svg {
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .h1-special {
-    font-size: 3rem;
+    font-size: 4rem;
     color: #bcc3bf;
   }
   h1 {
-    font-size: 3rem;
+    font-size: 4rem;
   }
   footer {
     padding: 2rem;
